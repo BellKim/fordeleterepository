@@ -42,6 +42,8 @@ git add fl.txt(녹색텍스트)
 
 git log --branches --graph --decorate --oneline
 -------------------------------------------------------------
+ignore file
+------------------------------
 원격과 연결하기
 git remote add origin 깃주소
 git push -u origin master
