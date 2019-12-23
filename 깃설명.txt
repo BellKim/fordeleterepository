@@ -1,66 +1,66 @@
-https://git-scm.com/
+ï»¿https://git-scm.com/
 
-¹öÀü°ü¸®¶õ
-¹öÀüÀÌ¶õ? 
- -¹öÀü°ú º¯È­ÀÇ Â÷ÀÌ´Â ?
-¹öÀüÀº ÀÇ¹ÌÀÖ´Â º¯È­. ·ÎÁ÷À» ¸¸µé´Ù ¸»¾ÒÀ¸¸é º¯È­, ±× ·ÎÁ÷ÀÌ ´Ù ¿Ï¼ºÀÌµÇ¾î ±â´ÉÀ¸·Î¼­ÀÇ ¿ªÇÒÀ» ÇßÀ»¶§´Â ´ÙÀ½ "¹öÀü" ÀÌ¶ó°í ÇÒ ¼ö ÀÖ´Ù. 
+ë²„ì „ê´€ë¦¬ëž€
+ë²„ì „ì´ëž€? 
+ -ë²„ì „ê³¼ ë³€í™”ì˜ ì°¨ì´ëŠ” ?
+ë²„ì „ì€ ì˜ë¯¸ìžˆëŠ” ë³€í™”. ë¡œì§ì„ ë§Œë“¤ë‹¤ ë§ì•˜ìœ¼ë©´ ë³€í™”, ê·¸ ë¡œì§ì´ ë‹¤ ì™„ì„±ì´ë˜ì–´ ê¸°ëŠ¥ìœ¼ë¡œì„œì˜ ì—­í• ì„ í–ˆì„ë•ŒëŠ” ë‹¤ìŒ "ë²„ì „" ì´ë¼ê³  í•  ìˆ˜ ìžˆë‹¤. 
 
 
 
 $git config --list 
 
-¹ßÇàÀÚ ÀÌ¸§¼³Á¤ÇÏ±â.
-$ git config --global user.name »ç¿ëÀÚ¸íÀÔ·Â
+ë°œí–‰ìž ì´ë¦„ì„¤ì •í•˜ê¸°.
+$ git config --global user.name ì‚¬ìš©ìžëª…ìž…ë ¥
 
-¹ßÇàÀÚ ÀÌ¸ÞÀÏ ¼³Á¤ÇÏ±â.
-$ git config --global user.email »ç¿ëÀÚ ÀÌ¸ÞÀÏ ÀÔ·Â. 
+ë°œí–‰ìž ì´ë©”ì¼ ì„¤ì •í•˜ê¸°.
+$ git config --global user.email ì‚¬ìš©ìž ì´ë©”ì¼ ìž…ë ¥. 
 
-¹öÀü ¹ßÇà¹æ¹ý. 
+ë²„ì „ ë°œí–‰ë°©ë²•. 
 
-ÆÄÀÏÀÌ º¯°æ µÇ°í³ª¼­ ¹ßÇàÀ» ÇÏ·Á¸é ´ÙÀ½ ¸í·É¾î ¾÷·Â. 
+íŒŒì¼ì´ ë³€ê²½ ë˜ê³ ë‚˜ì„œ ë°œí–‰ì„ í•˜ë ¤ë©´ ë‹¤ìŒ ëª…ë ¹ì–´ ì—…ë ¥. 
 
 git commit
 
 
 git log
-´ÙÀ½À» ÀÔ·ÂÇÏ¸é ¹æ±Ý ¹ßÇàÇÑ ¹öÀüÀ» ¿­¶÷ÇÒ ¼ö ÀÖ´Ù. 
+ë‹¤ìŒì„ ìž…ë ¥í•˜ë©´ ë°©ê¸ˆ ë°œí–‰í•œ ë²„ì „ì„ ì—´ëžŒí•  ìˆ˜ ìžˆë‹¤. 
 
 
-ÆÄÀÏ º¯°æÈ®ÀÎ(modified)
+íŒŒì¼ ë³€ê²½í™•ì¸(modified)
 
 git status 
-º¯°æÁ¡ÀÌ »ý°åÀ»¶§´Â º¯°æÁ¡ÀÌ staged µÇÁö ¾Ê¾Ò´Ù°í ³ª¿È. (»¡°­ÅØ½ºÆ®)
+ë³€ê²½ì ì´ ìƒê²¼ì„ë•ŒëŠ” ë³€ê²½ì ì´ staged ë˜ì§€ ì•Šì•˜ë‹¤ê³  ë‚˜ì˜´. (ë¹¨ê°•í…ìŠ¤íŠ¸)
 
 
-º¯°æÁ¡ÀÌ »ý°å´Ù¸é ±ê ¹öÀü°ü¸®¸¦ À§ÇØ  add ½ÃÄÑÁØ´Ù. 
+ë³€ê²½ì ì´ ìƒê²¼ë‹¤ë©´ ê¹ƒ ë²„ì „ê´€ë¦¬ë¥¼ ìœ„í•´  add ì‹œì¼œì¤€ë‹¤. 
 
-git add fl.txt(³ì»öÅØ½ºÆ®)
+git add fl.txt(ë…¹ìƒ‰í…ìŠ¤íŠ¸)
 
-¿©±â¼­ git statua ½ÇÇàÇÏ¸é modified °¡ ³ì»öÀÌ µÇ¸é¼­ Ä¿¹ÔÀÌ °¡´ÉÇÏ°Ô º¯°æµÊ. 
+ì—¬ê¸°ì„œ git statua ì‹¤í–‰í•˜ë©´ modified ê°€ ë…¹ìƒ‰ì´ ë˜ë©´ì„œ ì»¤ë°‹ì´ ê°€ëŠ¥í•˜ê²Œ ë³€ê²½ë¨. 
 -----------------------------------
-·Î±×º¸±â
+ë¡œê·¸ë³´ê¸°
 
 git log --branches --graph --decorate --oneline
 -------------------------------------------------------------
 ignore file
 ------------------------------
-¿ø°Ý°ú ¿¬°áÇÏ±â
-git remote add origin ±êÁÖ¼Ò
+ì›ê²©ê³¼ ì—°ê²°í•˜ê¸°
+git remote add origin ê¹ƒì£¼ì†Œ
 git push -u origin master
-<¿É¼Ç - u  (set upstream for git pull/status)>
+<ì˜µì…˜ - u  (set upstream for git pull/status)>
 ------------------------------------------------------------------------------------
-·ÎÄÃ°ú origin(±ê¼­¹ö)ÀÇ °³³ä
+ë¡œì»¬ê³¼ origin(ê¹ƒì„œë²„)ì˜ ê°œë…
 git fetch -all
 ----------------------
-branch »ý¼º
+branch ìƒì„±
 git branch newBranch
 
-ºê·£Ä¡ ¸®½ºÆ®
+ë¸Œëžœì¹˜ ë¦¬ìŠ¤íŠ¸
 git branch -a
 
 ---------------
-mergeÇÏ±â
-ÇöÀç ºê·£Ä¡¿Í master ÇÕÄ¡±â
+mergeí•˜ê¸°
+í˜„ìž¬ ë¸Œëžœì¹˜ì™€ master í•©ì¹˜ê¸°
  $ git merge master
 
 
@@ -69,13 +69,13 @@ mergeÇÏ±â
 git stash --help
 
 $ git stash save 
-¶Ç´Â
+ë˜ëŠ”
 $ git stash
 
-½ºÅ×ÀÌ½Ã ºÒ·¯¿À±â
+ìŠ¤í…Œì´ì‹œ ë¶ˆëŸ¬ì˜¤ê¸°
 $ git stash apply
 
-½ºÅ×ÀÌ½Ã ÃÊ±âÈ­
+ìŠ¤í…Œì´ì‹œ ì´ˆê¸°í™”
 
 
 
