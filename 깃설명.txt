@@ -40,7 +40,21 @@ git add fl.txt(녹색텍스트)
 -----------------------------------
 로그보기
 
+// 모든 브랜치 커밋 이력 조회
+git log --oneline --decorate --graph --all
+
+
+현재 branch 이하 기록보기
 git log --branches --graph --decorate --oneline
+
+// 커밋 이력 상세조회
+git log 
+ 
+// 커밋 이력중 커밋ID, 타이틀 메시지만 조회
+git log --oneline
+ 
+// 특정 파일의 변경 커밋 조회
+git log -- a.html
 -------------------------------------------------------------
 ignore file
 ------------------------------
